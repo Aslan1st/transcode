@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'wdm'
+gem 'win32console'
+
+group :development do
+  gem 'guard'
+end
+
+group :development do
+  gem 'guard-yield'
+end
